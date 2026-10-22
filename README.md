@@ -2,7 +2,9 @@
 
 A crew-scheduling web app for a photo booth company, built for the fictional brand **Golden Hour Booths**. It's based on a real tool I designed for a Seattle photo booth company I used to work for, rebuilt here with sample data.
 
-**[Open the live demo →](https://stefanioyong.github.io/booth-schedule/)**
+**[Open the live demo →](https://stefanioyong.github.io/booth-schedule/)** · Part of [my portfolio](https://stefanioyong.github.io/#projects)
+
+![The crew schedule: a gold header, the next event with a countdown, a monthly calendar and the list of upcoming events](screenshot.png)
 
 ## The problem
 
@@ -34,8 +36,8 @@ The [live demo](https://stefanioyong.github.io/booth-schedule/) runs the same in
 ## Files
 
 ```
-booth-schedule/
 ├── index.html               Live demo (sample data, saves to your browser)
+├── screenshot.png           The screenshot above
 └── google-apps-script/
     ├── Code.gs              Back end: reads and writes the Google Sheet, checks the editor passcode
     ├── Index.html           The page the Apps Script web app serves
